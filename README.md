@@ -1,4 +1,4 @@
-windows-internet-sharing-enabler
+Windows Internet Sharing Enabler
 ================================
 
 使用 Powershell 启用 Windows 7+ 自带的热点功能。需要支持此功能的无线网卡。
@@ -31,13 +31,13 @@ $key = "password"
 ### 直接从 cmd 运行
 
 ```shell
-@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/zhjits/windows-internet-sharing-enabler/master/ps/enablesharing.ps1'))"
+@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/Jamesits/windows-internet-sharing-enabler/master/ps/enablesharing.ps1'))"
 ```
 
 ### 直接从 Powershell 运行
 
 ```shell
-iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/zhjits/windows-internet-sharing-enabler/master/ps/enablesharing.ps1'))
+iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/Jamesits/windows-internet-sharing-enabler/master/ps/enablesharing.ps1'))
 ```
 
 ## 查询热点运行状态
